@@ -23,6 +23,3 @@
 ---
 
 -- Again everything that has been done by me is just my simple adaptation! --
-
-**Check out the original `NoCrypt's` Colab!** --> [![COLAB](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wEa-tS10h4LlDykd87TF5zzpXIIQoCmq)
-

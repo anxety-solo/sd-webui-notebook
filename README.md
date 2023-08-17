@@ -7,7 +7,7 @@
 # RU
 
 # Больашя часть идеи создания и кода принадлежит - [NoCrypt](https://colab.research.google.com/drive/1wEa-tS10h4LlDykd87TF5zzpXIIQoCmq) <-- его Колаб!
-# Я по большей части - лишь урезал, то, что посчитал ненужным и мало использованным, а также сделал свою систему дял скачивания и тому подобное.
+# Я по большей части - лишь урезал, то, что посчитал ненужным и мало использованным, а также сделал свою систему для скачивания и тому подобное.
 
 **RU COLAB**: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1B6y4oeab67FqVfn5CL0ByZ3AWyT0_pXE)
 

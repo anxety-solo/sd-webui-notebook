@@ -36,6 +36,6 @@ I don't think there's no point in saying anything else, it's clear what this col
 
 <div align="center">
   
-  <small>-- Again everything that has been done by me is just my simple adaptation! --</small>
+  <small>-- Again everything that has been done by me is just my simple adaptation --</small>
   
 </div>

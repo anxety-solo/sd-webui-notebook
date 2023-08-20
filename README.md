@@ -1,14 +1,9 @@
-<p align="center">
-  <strong>ANXETY COLAB</strong>
-</p>
-
 <div align="center">
-<table>
-  <tr>
-    <td valign="center"><img src="https://github.com/twitter/twemoji/blob/master/assets/svg/1f1fa-1f1f8.svg" width="16"/> English</td>
-    <td valign="center"><a href="README_ru-ru.md"><img src="https://github.com/twitter/twemoji/blob/master/assets/svg/1f1f7-1f1fa.svg" width="16"/> Русский</a></td>
-  </tr>
-</table>
+
+<h1 align="center">ANXETY COLAB</h1>
+
+English | [Русский ](./README-ru_RU.md)
+
 </div>
 
 <p align="center">
@@ -19,14 +14,28 @@
 
 ---
 
+## 👉 Beginnings
+
 #### Most of the idea and code comes from *NoCrypt*.
 I mostly just cut down what I considered unnecessary and little used, and also made my own system for downloading and so on. | Some extensions were removed, some ***config*** files were changed so that the interface was not too cluttered, some things of course were taken from his colab - for example his script `ColabTimer` - a really useful thing, and all the little things in general.
 
-**And although originally everything was made for me. I decided to share what I have already managed to do in the meantime.**
+I don't think there's no point in saying anything else, it's clear what this colab does.
+
+**I think I'll keep doing some updates and stuff like that until I get bored, I guess).**
 
 ---
 
-<p align="center">
-  <small>-- Again everything that has been done by me is just my simple adaptation! --</small>
-</p>
+## ✨ WIP?
 
+- [x] - Start doing extra features?
+- [ ] - something else...
+- [ ] - something else...
+- [x] - No more ideas? - Yes(
+
+---
+
+<div align="center">
+  
+  <small>-- Again everything that has been done by me is just my simple adaptation! --</small>
+  
+</div>

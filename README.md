@@ -16,7 +16,7 @@ English | [Русский ](./README-ru_RU.md)
 
 ## 👉 Beginnings
 
-#### Most of the idea and code comes from *NoCrypt*.
+#### Most of the idea and code comes from [*NoCrypt*](https://github.com/NoCrypt).
 I mostly just cut down what I considered unnecessary and little used, and also made my own system for downloading and so on. | Some extensions were removed, some ***config*** files were changed so that the interface was not too cluttered, some things of course were taken from his colab - for example his script `ColabTimer` - a really useful thing, and all the little things in general.
 
 I don't think there's no point in saying anything else, it's clear what this colab does.

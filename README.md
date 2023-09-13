@@ -17,7 +17,7 @@ English | [Русский ](./README-ru_RU.md)
 ## IMPORTANT: NoCrypt - stated that google colab, has completely stopped supporting the operability of A1111 and that you can be disconnected from the session at any time.... 
 
 + I can't guarantee this or confirm his words, for I spent 1 hour working and I was not disconnected. I don't know if it was luck or what it was related to ;p
-+ also I made some small changes in my colab (rewrote a bit of code - maybe something won't work) - you can use it and maybe it will work fine without disconnecting from the session) --> <a href="https://colab.research.google.com/drive/1P89RgBbmnVAqtu0kF9BWo7HdJsWCCNxc"><img src="https://img.shields.io/badge/BETA%20-%20grey?style=for-the-badge&logo=google%20colab&logoColor=orange&label=Colab&labelColor=darkcayan&color=16acc9"></a>
++ also I made some small changes in my colab (rewrote a bit of code - maybe something won't work) - you can use it and maybe it will work fine without disconnecting from the session) --> <a href="https://colab.research.google.com/drive/1P89RgBbmnVAqtu0kF9BWo7HdJsWCCNxc"><img src="https://img.shields.io/badge/BETA%20-%20grey?style=for-the-badge&logo=google%20colab&logoColor=orange&label=Colab&labelColor=darkcayan&color=16acc9"></a> <-- not translated into English!
 
 ---
 

@@ -14,10 +14,23 @@ English | [Русский ](./README-ru_RU.md)
 
 ---
 
-## IMPORTANT: NoCrypt - stated that google colab, has completely stopped supporting the operability of A1111 and that you can be disconnected from the session at any time.... 
+## ❗ IMPORTANT:
 
-+ I can't guarantee this or confirm his words, for I spent 1 hour working and I was not disconnected. I don't know if it was luck or what it was related to ;p
-+ also I made some small changes in my colab (rewrote a bit of code - maybe something won't work) - you can use it and maybe it will work fine without disconnecting from the session) --> <a href="https://colab.research.google.com/drive/1P89RgBbmnVAqtu0kF9BWo7HdJsWCCNxc"><img src="https://img.shields.io/badge/BETA%20-%20grey?style=for-the-badge&logo=google%20colab&logoColor=orange&label=Colab&labelColor=darkcayan&color=16acc9"></a> <-- not translated into English!
+_NoCrypt stated that Google Colab has completely stopped supporting the operability of A1111, and you can be disconnected from the session at any time..._
+
+<div align="center">
+
+### A little background check on the job...
+
+| _Date_ | _Description of Performance?_ |
+|------------|----------------------------|
+| 14.09.23 | - I can't guarantee this or confirm his words, as I worked for 1 hour and wasn't disconnected. I don't know if it was luck or if it's related to something else 😉 |
+| 15.09.23 | - I'm really bummed that it stopped working, unlike yesterday's tryout... sad, of course, but I'm not giving up hope! |
+
+</div>
+<br>
+
++ I also made some minor changes to my Colab (rewrote a bit of code - maybe something won't work - you can use it, and it will probably work fine without disconnecting from the session) : <a href="https://colab.research.google.com/drive/1P89RgBbmnVAqtu0kF9BWo7HdJsWCCNxc"><img src="https://img.shields.io/badge/BETA%20-%20grey?style=for-the-badge&logo=google%20colab&logoColor=orange&label=Colab&labelColor=darkcayan&color=16acc9"></a> <-- not translated into English!
 
 ---
 
@@ -29,15 +42,6 @@ I mostly just cut down what I considered unnecessary and little used, and also m
 I don't think there's no point in saying anything else, it's clear what this colab does.
 
 **I think I'll keep doing some updates and stuff like that until I get bored, I guess).**
-
----
-
-## ✨ WIP?
-
-- [x] - Start doing extra features?
-- [ ] - something else...
-- [ ] - something else...
-- [x] - No more ideas? - Yes(
 
 ---
 

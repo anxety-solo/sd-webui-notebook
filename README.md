@@ -10,6 +10,7 @@ English | [Русский ](./README-ru_RU.md)
   <a href="https://colab.research.google.com/drive/1wEa-tS10h4LlDykd87TF5zzpXIIQoCmq"><img src="https://img.shields.io/badge/NoCrypt's%20-%20grey?style=for-the-badge&logo=google%20colab&logoColor=orange&label=Colab&labelColor=darkcayan&color=orange"></a>
   <a href="https://colab.research.google.com/drive/1AH8z-p_ZSQvowZ-9pIVXBcqt_c3V4O9W"><img src="https://img.shields.io/badge/My Colab%20-%20grey?style=for-the-badge&logo=google%20colab&logoColor=orange&label=Colab&labelColor=darkcayan&color=16acc9"></a>
   <a href="https://discordapp.com/users/565783561878372352"><img src="https://img.shields.io/badge/MY%20DISCORD-blue?style=for-the-badge&logo=discord&logoColor=white&color=blue"></a>
+  <a href="https://colab.research.google.com/drive/1P89RgBbmnVAqtu0kF9BWo7HdJsWCCNxc"><img src="https://img.shields.io/badge/BETA -- doesn't work%20-%20grey?style=for-the-badge&logo=google%20colab&logoColor=orange&label=Colab&labelColor=darkcayan&color=16acc9"></a>
 </p>
 
 ---
@@ -22,15 +23,62 @@ _NoCrypt stated that Google Colab has completely stopped supporting the operabil
 
 ### A little background check on the job...
 
-| _Date_ | _Description of Performance?_ |
-|------------|----------------------------|
+| _Date_   | _Description of Performance?_ |
+|----------|-------------------------------|
 | 14.09.23 | - I can't guarantee this or confirm his words, as I worked for 1 hour and wasn't disconnected. I don't know if it was luck or if it's related to something else 😉 |
 | 15.09.23 | - I'm really bummed that it stopped working, unlike yesterday's tryout... sad, of course, but I'm not giving up hope! |
+|          | - Still I think the problem is in the code, so we will wait for action from _NoCrypt_ ;d |
 
 </div>
 <br>
 
-+ I also made some minor changes to my Colab (rewrote a bit of code - maybe something won't work - you can use it, and it will probably work fine without disconnecting from the session) : <a href="https://colab.research.google.com/drive/1P89RgBbmnVAqtu0kF9BWo7HdJsWCCNxc"><img src="https://img.shields.io/badge/BETA%20-%20grey?style=for-the-badge&logo=google%20colab&logoColor=orange&label=Colab&labelColor=darkcayan&color=16acc9"></a> <-- not translated into English!
+-> I was too lazy to open access in colab, so just copy the code below and run it in the cell. In my case I didn't disconnect from the session... There might be conflicts in the main code, I don't know for sure)
+
+<details>
+<summary><kbd>Expand to see.</kbd></summary>
+  
+```py
+import time
+from IPython.utils import capture
+
+try:
+  start_colab
+except:
+  start_colab = int(time.time())-5
+
+#@title # | What's here doesn't matter, but it works!
+
+model_url = "https://civitai.com/api/download/models/138754" # @param {type:"string"}
+model_file_name = "CuteColor_V3.safetensors" # @param {type:"string"}
+commandline_arguments = "--enable-insecure-extension-access --multiple --disable-safe-unpickle --theme dark --no-hashing --opt-sdp-attention" #@param{type:"string"}
+
+if "safetensors" or ".safetensors" not in model_file_name:
+  model_file_name += ".safetensors"
+
+print("Please wait for the shit to load for this to run. For about 1 minute~", end='')
+with capture.capture_output() as cap:
+  !wget https://huggingface.co/NoCrypt/fast-repo/resolve/main/ubuntu_deps.zip ; unzip ubuntu_deps.zip -d ./deps ; dpkg -i ./deps/* ; rm -rf ubuntu_deps.zip /content/deps/
+  !echo -e "https://huggingface.co/NoCrypt/fast-repo/resolve/main/dep.tar.lz4\n\tout=dep.tar.lz4\nhttps://huggingface.co/NagisaNao/sd_webui_anxety_colab/resolve/main/anxety_repo.tar.lz4\n\tout=repo.tar.lz4\nhttps://huggingface.co/NoCrypt/fast-repo/resolve/main/cache.tar.lz4\n\tout=cache.tar.lz4\n" \
+    | aria2c -i- -j5 -x16 -s16 -k1M -c
+
+  !tar -xI lz4 -f dep.tar.lz4 --overwrite-dir --directory=/usr/local/lib/python3.10/dist-packages/ #(manual dir)
+  !tar -xI lz4 -f repo.tar.lz4 --directory=/ #/content/sdw/ (auto dir)
+  !tar -xI lz4 -f cache.tar.lz4 --directory=/ #/root/.cache/huggingface (auto dir)
+
+  !rm -rf /content/dep.tar.lz4 /content/repo.tar.lz4 /content/cache.tar.lz4
+
+  !aria2c --optimize-concurrent-downloads --console-log-level=error --summary-interval=10 -j5 -x16 -s16 -k1M -c -d /content/sdw/models/Stable-diffusion/ -o {model_file_name} {model_url}
+  !aria2c --optimize-concurrent-downloads --console-log-level=error --summary-interval=10 -j5 -x16 -s16 -k1M -c -d /content/sdw/models/VAE/ -o Blessed2.vae.safetensors https://huggingface.co/NoCrypt/resources/resolve/main/VAE/blessed2.vae.safetensors
+ 
+  !echo -n {start_colab} > /content/sdw/static/colabTimer.txt
+del cap
+print("\rDone!")
+
+%cd /content/sdw
+!COMMANDLINE_ARGS="{commandline_arguments}" REQS_FILE="requirements_versions.txt" python launch.py
+```
+
+</details>
 
 ---
 

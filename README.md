@@ -8,7 +8,7 @@ English | [Русский ](./README-ru_RU.md)
 
 <p align="center">
   <a href="https://colab.research.google.com/drive/1wEa-tS10h4LlDykd87TF5zzpXIIQoCmq"><img src="https://img.shields.io/badge/NoCrypt's%20-%20grey?style=for-the-badge&logo=google%20colab&logoColor=orange&label=Colab&labelColor=darkcayan&color=orange"></a>
-  <a href="https://colab.research.google.com/drive/1AH8z-p_ZSQvowZ-9pIVXBcqt_c3V4O9W"><img src="https://img.shields.io/badge/My Colab%20-%20grey?style=for-the-badge&logo=google%20colab&logoColor=orange&label=Colab&labelColor=darkcayan&color=16acc9"></a>
+  <a href="https://colab.research.google.com/drive/1AH8z-p_ZSQvowZ-9pIVXBcqt_c3V4O9W"><img src="https://img.shields.io/badge/My Colab | Updates required%20-%20grey?style=for-the-badge&logo=google%20colab&logoColor=orange&label=Colab&labelColor=darkcayan&color=darkred"></a>
   <a href="https://discordapp.com/users/565783561878372352"><img src="https://img.shields.io/badge/MY%20DISCORD-blue?style=for-the-badge&logo=discord&logoColor=white&color=blue"></a> <br>
   <a href="https://colab.research.google.com/drive/1P89RgBbmnVAqtu0kF9BWo7HdJsWCCNxc"><img src="https://img.shields.io/badge/BETA -- it seems to be working%20-%20grey?style=for-the-badge&logo=google%20colab&logoColor=orange&label=Colab&labelColor=darkcayan&color=purple"></a>
 </p>
@@ -27,8 +27,9 @@ _NoCrypt stated that Google Colab has completely stopped supporting the operabil
 |----------|------------------------------|
 | 14.09.23 | - I can't guarantee this or confirm his words, as I worked for 1 hour and wasn't disconnected. I don't know if it was luck or if it's related to something else 😉 |
 | 15.09.23 | - I'm really bummed that it stopped working, unlike yesterday's tryout... sad, of course, but I'm not giving up hope! <br> - Still I think the problem is in the code, so we will wait for action from _NoCrypt_ ;d |
-|          | - After spending a couple more hours searching for a solution by trial and error, I may have found the reason.. _**(XL is shit, remember this, no kidding, it's true)**_. For now, use the `BETA version` of my colab, perhaps it will still work. **`Sorry but I didn't translate it into English(`** |
-
+|          | - After spending a couple more hours searching for a solution by trial and error, I may have found the reason.. _**XL sucks, remember this, it's true)**_. For now, use the [_BETA version_](https://colab.research.google.com/drive/1P89RgBbmnVAqtu0kF9BWo7HdJsWCCNxc) of my colab, perhaps it will still work. ***`Sorry but I didn't translate it into English(`*** |
+| 16.09.23 | - This is bad, it disconnects me from the session again... at the moment I'm looking for \*_trigger words_\* that Google Colab swears at. |
+ 
 </div>
 
 
@@ -36,7 +37,7 @@ _NoCrypt stated that Google Colab has completely stopped supporting the operabil
 <details>
 <summary><kbd>Expand to see.</kbd></summary>
   
-- _I wasn't too lazy to open access in the colaba, so just copy the code below and run it in the cell. In my case, I did not disconnect from the session... Maybe there are conflicts in the main code, I don't know for sure._
+- _I was too lazy to open access to colab, so just copy the code below and run it in the cell. In my case, I did not disconnect from the session... Maybe there are conflicts in the main code, I don't know for sure._
   
 ```py
 import time
@@ -87,10 +88,6 @@ print("\rDone!")
 
 #### Most of the idea and code comes from [*NoCrypt*](https://github.com/NoCrypt).
 I mostly just cut down what I considered unnecessary and little used, and also made my own system for downloading and so on. | Some extensions were removed, some ***config*** files were changed so that the interface was not too cluttered, some things of course were taken from his colab - for example his script `ColabTimer` - a really useful thing, and all the little things in general.
-
-I don't think there's no point in saying anything else, it's clear what this colab does.
-
-**I think I'll keep doing some updates and stuff like that until I get bored, I guess).**
 
 ---
 

@@ -25,17 +25,17 @@ _NoCrypt stated that Google Colab has completely stopped supporting the operabil
 
 | _Date_   | _Description of Performance_ |
 |----------|------------------------------|
-| 14.09.23 | - I can't guarantee this or confirm his words, as I worked for 1 hour and wasn't disconnected. I don't know if it was luck or if it's related to something else 😉 |
-| 15.09.23 | - I'm really bummed that it stopped working, unlike yesterday's tryout... sad, of course, but I'm not giving up hope! <br> - Still I think the problem is in the code, so we will wait for action from _NoCrypt_ ;d |
+| 13.09.23 | - I can't guarantee this or confirm his words, as I worked for 1 hour and wasn't disconnected. I don't know if it was luck or if it's related to something else 😉 |
+| 14.09.23 | - I'm really bummed that it stopped working, unlike yesterday's tryout... sad, of course, but I'm not giving up hope! <br> - Still I think the problem is in the code, so we will wait for action from _NoCrypt_ ;d |
 |          | - After spending a couple more hours searching for a solution by trial and error, I may have found the reason.. _**XL sucks, remember this, it's true)**_. For now, use the [_BETA version_](https://colab.research.google.com/drive/1P89RgBbmnVAqtu0kF9BWo7HdJsWCCNxc) of my colab, perhaps it will still work. ***`Sorry but I didn't translate it into English(`*** |
-| 16.09.23 | - This is bad, it disconnects me from the session again... at the moment I'm looking for \*_trigger words_\* that Google Colab swears at. |
+| 15.09.23 | - This is bad, it disconnects me from the session again... at the moment I'm looking for \*_trigger words_\* that Google Colab swears at. |
 |          | - I still couldn't solve the problem with disconnecting... I plan to continue tomorrow, maybe I'll have to use a different approach instead of trying to find 'forbidden words'. _NoCrypt_ - updated their repository on Hugging Face today - maybe they are also taking some actions? |
  
 </div>
 
-### ⚠️ `STATE OF BETA VERSION:` is currently shut down again - _not working_. 
-
 ---
+
+### ⚠️ `STATE OF BETA VERSION:` is currently shut down again - _not working_. 
 
 ### Code to check for session disconnection: - _not working(_
 <details>

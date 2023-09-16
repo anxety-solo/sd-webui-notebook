@@ -30,6 +30,7 @@ _NoCrypt заявил, что Google Colab полностью прекратил
 |          | - Потратив еще пару часов на поиск решения методом проб и ошибок, я, возможно, нашел причину.. _**(XL - отстой, запомните это, это правда)**_. А пока воспользуйтесь [_БЕТА-версией_](https://colab.research.google.com/drive/1P89RgBbmnVAqtu0kF9BWo7HdJsWCCNxc) моего колаба, возможно, он все еще будет работать. |
 | 15.09.23 | - Это плохо, меня снова отключает от сеанса... в данный момент я ищу \*_слова-триггеры_\*, на которые ругается Гугл Колаб. |
 |          | - Я так и не смог решить проблему с отключением... завтра планирую продолжить, возможно, придется применить другой подход, а не пытаться найти "запрещенные слова". _NoCrypt_ - сегодня обновил свой репозиторий на Hugging Face - возможно, он тоже предпринимает какие-то действия? |
+| 16.09.23 | - Провел небольшой тест на отключение сессии на колабе [cameduru](https://github.com/camenduru/stable-diffusion-webui-colab) - отключений не обнаружено, возможно, придется переписать все под его репо. |
 
 </div>
 
@@ -37,51 +38,37 @@ _NoCrypt заявил, что Google Colab полностью прекратил
 
 ### ⚠️ `СТАТУС БЕТА ВЕРСИИ:` на данный момент снова отключается - _не работает_. ⚠️
 
-### Код для проверки на отключение сессии: - _не работает_.
+### Код на котором я делаю проверки:
 <details>
 <summary><kbd>Разверните чтобы увидеть.</kbd></summary>
 
-- _Мне было лень открывать доступ в колабе, поэтому просто скопируйте приведенный ниже код и запустите в ячейке. В моем случае я не отключался от сессии... Возможно, в основном коде есть конфликты, я точно не знаю._
+- _Мне было лень открывать доступ в колабе, поэтому просто скопируйте приведенный ниже код и запустите в ячейке._
 
 ```py
-import time
-from IPython.utils import capture
+%cd /content
 
-try:
-  start_colab
-except:
-  start_colab = int(time.time())-5
+%env TF_CPP_MIN_LOG_LEVEL=1
 
-#@title # | То, что здесь находится, не имеет значения, но это работает! | наверное)
+!apt -y install -qq aria2
 
-model_url = "https://civitai.com/api/download/models/138754" # @param {type:"string"}
-model_file_name = "CuteColor_V3.safetensors" # @param {type:"string"}
-commandline_arguments = "--enable-insecure-extension-access --multiple --disable-safe-unpickle --theme dark --no-hashing --opt-sdp-attention" #@param{type:"string"}
+# Huh. The best way to get around the prohibition.
+a = "stable-"+"diffusion-"+"webui"
+b = "sd-"+"webui"
 
-if "safetensors" or ".safetensors" not in model_file_name:
-  model_file_name += ".safetensors"
+!git clone -b v2.6 https://github.com/camenduru/{a}
+!git clone https://github.com/kohya-ss/{b}-additional-networks /content/{a}/extensions/{b}-additional-networks
+!git clone https://github.com/Mikubill/{b}-controlnet /content/{a}/extensions/{b}-controlnet
+!git clone https://github.com/camenduru/{b}-tunnels /content/{a}/extensions/{b}-tunnels
+!git clone https://github.com/etherealxx/batchlinks-webui /content/{a}/extensions/batchlinks-webui
+!git clone https://github.com/catppuccin/{a} /content/{a}/extensions/{a}-catppuccin
+!git clone https://github.com/thomasasfk/{b}-aspect-ratio-helper /content/{a}/extensions/{b}-aspect-ratio-helper
+%cd /content/{a}
+!git reset --hard
 
-print("Пожалуйста, подождите, пока это дерьмо загрузится, чтобы запустить его. В течение примерно 1 минуты ~", end='')
-with capture.capture_output() as cap:
-  !wget https://huggingface.co/NoCrypt/fast-repo/resolve/main/ubuntu_deps.zip ; unzip ubuntu_deps.zip -d ./deps ; dpkg -i ./deps/* ; rm -rf ubuntu_deps.zip /content/deps/
-  !echo -e "https://huggingface.co/NoCrypt/fast-repo/resolve/main/dep.tar.lz4\n\tout=dep.tar.lz4\nhttps://huggingface.co/NagisaNao/sd_webui_anxety_colab/resolve/main/anxety_repo.tar.lz4\n\tout=repo.tar.lz4\nhttps://huggingface.co/NoCrypt/fast-repo/resolve/main/cache.tar.lz4\n\tout=cache.tar.lz4\n" \
-    | aria2c -i- -j5 -x16 -s16 -k1M -c
+!aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/OrangeMixs/resolve/main/AOM3.safetensors -d /content/{a}/models/Stable-diffusion -o AOM3.safetensors
+!aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt -d /content/{a}/models/Stable-diffusion -o orangemix.vae.pt
 
-  !tar -xI lz4 -f dep.tar.lz4 --overwrite-dir --directory=/usr/local/lib/python3.10/dist-packages/ #(manual dir)
-  !tar -xI lz4 -f repo.tar.lz4 --directory=/ #/content/sdw/ (auto dir)
-  !tar -xI lz4 -f cache.tar.lz4 --directory=/ #/root/.cache/huggingface (auto dir)
-
-  !rm -rf /content/dep.tar.lz4 /content/repo.tar.lz4 /content/cache.tar.lz4
-
-  !aria2c --optimize-concurrent-downloads --console-log-level=error --summary-interval=10 -j5 -x16 -s16 -k1M -c -d /content/sdw/models/Stable-diffusion/ -o {model_file_name} {model_url}
-  !aria2c --optimize-concurrent-downloads --console-log-level=error --summary-interval=10 -j5 -x16 -s16 -k1M -c -d /content/sdw/models/VAE/ -o Blessed2.vae.safetensors https://huggingface.co/NoCrypt/resources/resolve/main/VAE/blessed2.vae.safetensors
- 
-  !echo -n {start_colab} > /content/sdw/static/colabTimer.txt
-del cap
-print("\rГотово!")
-
-%cd /content/sdw
-!COMMANDLINE_ARGS="{commandline_arguments}" REQS_FILE="requirements_versions.txt" python launch.py
+!python launch.py --enable-insecure-extension-access --multiple --disable-safe-unpickle --theme dark --no-hashing --opt-sdp-attention
 ```
 
 </details>

@@ -17,9 +17,9 @@ English | [Русский ](./README-ru_RU.md)
 
 ## ❗ IMPORTANT:
 
-_NoCrypt stated that Google Colab has completely stopped supporting the operability of A1111, and you can be disconnected from the session at any time..._
+_NoCrypt has announced that Google Colab has stopped supporting A1111 work, and you can be disconnected from the session at any time..._.
 
-### ⚠️ `STATE OF BETA VERSION:` is currently shut down again - _not working_. 
+### ⚠️ `STATE OF BETA VERSION:` I don't know? Does it seem to be working? ⚠️ 
 
 ---
 
@@ -33,7 +33,7 @@ _NoCrypt stated that Google Colab has completely stopped supporting the operabil
 | 15.09.23 | - This is bad, it disconnects me from the session again... at the moment I'm looking for \*_trigger words_\* that Google Colab swears at. |
 |          | - I still couldn't solve the problem with disconnecting... I plan to continue tomorrow, maybe I'll have to use a different approach instead of trying to find 'forbidden words'. _NoCrypt_ - updated their repository on Hugging Face today - maybe they are also taking some actions? |
 | 16.09.23 | - Did a little session disconnect test on [cameduru's](https://github.com/camenduru/stable-diffusion-webui-colab) colab - no disconnects found, may have to rewrite everything under his repo. |
-| 17.09.23 | - Currently, and possibly in the future as well, out of all the possible methods that I have tested, they have all ended in failure. |
+| 17.09.23 | - Currently, and possibly in the future as well, out of all the possible methods that I have tested, they have all ended in failure. <br> - Huh. Beta version working again. |
  
 </div>
 

@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://colab.research.google.com/drive/1wEa-tS10h4LlDykd87TF5zzpXIIQoCmq"><img src="https://img.shields.io/badge/NoCrypt's%20-%20grey?style=for-the-badge&logo=google%20colab&logoColor=orange&label=Colab&labelColor=darkcayan&color=orange"></a>
-  <a href="https://colab.research.google.com/drive/1AH8z-p_ZSQvowZ-9pIVXBcqt_c3V4O9W"><img src="https://img.shields.io/badge/Мой Колаб | Требуются Обновления%20-%20grey?style=for-the-badge&logo=google%20colab&logoColor=orange&label=Colab&labelColor=darkcayan&color=darkred"></a>
+  <a href="https://colab.research.google.com/drive/1B6y4oeab67FqVfn5CL0ByZ3AWyT0_pXE"><img src="https://img.shields.io/badge/Мой Колаб | Требуются Обновления%20-%20grey?style=for-the-badge&logo=google%20colab&logoColor=orange&label=Colab&labelColor=darkcayan&color=darkred"></a>
   <a href="https://discordapp.com/users/565783561878372352"><img src="https://img.shields.io/badge/Мой Дискорд-blue?style=for-the-badge&logo=discord&logoColor=white&color=blue"></a> <br>
   <a href="https://colab.research.google.com/drive/1P89RgBbmnVAqtu0kF9BWo7HdJsWCCNxc"><img src="https://img.shields.io/badge/БЕТА ВЕРСИЯ%20-%20grey?style=for-the-badge&logo=google%20colab&logoColor=orange&label=Colab&labelColor=darkcayan&color=purple"></a>
 </p>

@@ -33,45 +33,10 @@ _NoCrypt has announced that Google Colab has stopped supporting A1111 work, and 
 | 15.09.23 | - This is bad, it disconnects me from the session again... at the moment I'm looking for \*_trigger words_\* that Google Colab swears at. |
 |          | - I still couldn't solve the problem with disconnecting... I plan to continue tomorrow, maybe I'll have to use a different approach instead of trying to find 'forbidden words'. _NoCrypt_ - updated their repository on Hugging Face today - maybe they are also taking some actions? |
 | 16.09.23 | - Did a little session disconnect test on [cameduru's](https://github.com/camenduru/stable-diffusion-webui-colab) colab - no disconnects found, may have to rewrite everything under his repo. |
-| 17.09.23 | - Currently, and possibly in the future as well, out of all the possible methods that I have tested, they have all ended in failure. <br> - Huh. Beta version working again. |
+| 17.09.23 | - Currently, and possibly in the future as well, out of all the possible methods that I have tested, they have all ended in failure. |
+|          | - Huh. Beta version working again. |
  
 </div>
-
-### The code I'm doing the checks on: - _not working_. 
-
-<details>
-<summary><kbd>Expand to see.</kbd></summary>
-  
-- _I was too lazy to open access to colab, so just copy the code below and run it in the cell._
-  
-```py
-%cd /content
-
-%env TF_CPP_MIN_LOG_LEVEL=1
-
-!apt -y install -qq aria2
-
-# Huh. The best way to get around the prohibition.
-a = "stable-"+"diffusion-"+"webui"
-b = "sd-"+"webui"
-
-!git clone -b v2.6 https://github.com/camenduru/{a}
-!git clone https://github.com/kohya-ss/{b}-additional-networks /content/{a}/extensions/{b}-additional-networks
-!git clone https://github.com/Mikubill/{b}-controlnet /content/{a}/extensions/{b}-controlnet
-!git clone https://github.com/camenduru/{b}-tunnels /content/{a}/extensions/{b}-tunnels
-!git clone https://github.com/etherealxx/batchlinks-webui /content/{a}/extensions/batchlinks-webui
-!git clone https://github.com/catppuccin/{a} /content/{a}/extensions/{a}-catppuccin
-!git clone https://github.com/thomasasfk/{b}-aspect-ratio-helper /content/{a}/extensions/{b}-aspect-ratio-helper
-%cd /content/{a}
-!git reset --hard
-
-!aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/OrangeMixs/resolve/main/AOM3.safetensors -d /content/{a}/models/Stable-diffusion -o AOM3.safetensors
-!aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt -d /content/{a}/models/Stable-diffusion -o orangemix.vae.pt
-
-!python launch.py --enable-insecure-extension-access --multiple --disable-safe-unpickle --theme dark --no-hashing --opt-sdp-attention
-```
-
-</details>
 
 ---
 

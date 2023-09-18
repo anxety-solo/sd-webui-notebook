@@ -19,10 +19,13 @@ English | [Русский ](./README-ru_RU.md)
 
 _NoCrypt has announced that Google Colab has stopped supporting A1111 work, and you can be disconnected from the session at any time..._.
 
-### ⚠️ `STATE OF BETA VERSION:` I don't know? Does it seem to be working? ⚠️ 
+### ⚠️ `STATE OF BETA VERSION:` - _Doesn't Work_. ⚠️ 
 
----
+### Days of Activity.
 
+<details>
+<summary><kbd>Expand to see</kbd></summary>
+  
 <div align="center">
 
 | _Date_   | _Description of Performance_ |
@@ -35,8 +38,11 @@ _NoCrypt has announced that Google Colab has stopped supporting A1111 work, and 
 | 16.09.23 | - Did a little session disconnect test on [cameduru's](https://github.com/camenduru/stable-diffusion-webui-colab) colab - no disconnects found, may have to rewrite everything under his repo. |
 | 17.09.23 | - Currently, and possibly in the future as well, out of all the possible methods that I have tested, they have all ended in failure. |
 |          | - Huh. Beta version working again. |
+| 18.09.23 | - I am interrupting work indefinitely. Until a solution is found (if there really is one). |
  
 </div>
+
+</details>
 
 ---
 

@@ -17,7 +17,7 @@ English | [Русский ](./README-ru_RU.md)
 
 ## ❗ IMPORTANT:
 
-_NoCrypt has announced that Google Colab has stopped supporting A1111 work, and you can be disconnected from the session at any time..._.
+Stumbled across this [repo](https://github.com/AlexSgt/lite_colab) - and surprisingly what the author presented works, the only catch is that it uses an old version of WebUi and a different launch system, I decided to quickly adapt my colab to his repo, it worked, but some extensions don't work. I want to try to dig into its code and structure to fully adapt this to my repo and the new UI c upgradeable. You can check if it works [here](https://colab.research.google.com/drive/1YXCD15ulOQieP0auch5uwEC_krRkwg8O).
 
 ### ⚠️ `STATE OF BETA VERSION:` - _Doesn't Work_. ⚠️ 
 
@@ -39,6 +39,7 @@ _NoCrypt has announced that Google Colab has stopped supporting A1111 work, and 
 | 17.09.23 | - Currently, and possibly in the future as well, out of all the possible methods that I have tested, they have all ended in failure. |
 |          | - Huh. Beta version working again. |
 | 18.09.23 | - I am interrupting work indefinitely. Until a solution is found (if there really is one). |
+| 22.09.23 | - ...There may still be a chance, the problem is that my understanding in python is superficial and adapting the code may be problematic for me. |
  
 </div>
 

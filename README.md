@@ -8,6 +8,6 @@ English | [Русский ](./README-ru_RU.md)
 
 <div align="center">
   
-  # SOON...
+  # pending translation...
   
 </div>

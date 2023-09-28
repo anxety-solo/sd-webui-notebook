@@ -8,7 +8,7 @@ English | [Русский ](./README-ru_RU.md)
 
 
 <p align="center">
-  <a href="https://studiolab.sagemaker.aws/import/github/anxety-solo/sd-webui-sagemaker/blob/main/anxety.ipynb"><img src="https://img.shields.io/badge/SAGEMAKER-blue?style=for-the-badge&color=blue"></a>
+  <a href="https://studiolab.sagemaker.aws/import/github/anxety-solo/sd-webui-sagemaker/blob/main/anxety-ru.ipynb"><img src="https://img.shields.io/badge/SAGEMAKER-blue?style=for-the-badge&color=blue"></a>
   <a href="https://discordapp.com/users/565783561878372352"><img src="https://img.shields.io/badge/МОЙ ДИСКОРД-blue?style=for-the-badge&logo=discord&logoColor=white&color=blue"></a> <br>
 </p>
 
@@ -35,8 +35,6 @@ English | [Русский ](./README-ru_RU.md)
 <div align="center">
 
   ![Виджеты](https://github.com/anxety-solo/sd-webui-sagemaker/blob/main/img/ru/widgets_view_ru.png)
-  
-  ~ Я хотел бы получить отзывы о том, как это работает, потому что я не знаю, работает ли это правильно или надо исправить. ~
   
 </div>
 

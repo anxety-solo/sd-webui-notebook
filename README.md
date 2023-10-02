@@ -19,7 +19,7 @@ English | [Русский ](./README-ru_RU.md)
 
 
 ## 👉 How to start:
-  0. Click on `SageMaker` at the top and copy this notebook. (Yes, you will have to copy it again when updating)     
+  1. Click on `SageMaker` at the top and copy this notebook. (Yes, you will have to copy it again when updating)     
   2. You need to get an `ngrok` token to create a tunnel. You can get it [here](https://dashboard.ngrok.com/get-started/your-authtoken).
   3. Then insert the token into the _required field_ of the widgets.
   4. Don't forget to click `Save` - it's clear why you need that, right?

@@ -1,15 +1,16 @@
 <div align="center">
 
-<h1 align="center">ANXETY SageMaker</h1>
+<h1 align="center">~ ANXETY | Stable Diffusion WebUI | SageMaker ~</h1>
 
-English | [Русский ](./README-ru_RU.md)
+[English](./README.md) | Русский
 
 </div>
 
 
 <p align="center">
-  <a href="https://studiolab.sagemaker.aws/import/github/anxety-solo/sd-webui-sagemaker/blob/main/anxety-ru.ipynb"><img src="https://img.shields.io/badge/SAGEMAKER-blue?style=for-the-badge&color=blue"></a>
-  <a href="https://discordapp.com/users/565783561878372352"><img src="https://img.shields.io/badge/МОЙ ДИСКОРД-blue?style=for-the-badge&logo=discord&logoColor=white&color=blue"></a> <br>
+  <a href="https://studiolab.sagemaker.aws/import/github/anxety-solo/sd-webui-sagemaker/blob/main/anxety-ru.ipynb"><img alt="SageMaker" src="https://img.shields.io/badge/SAGEMAKER-blue?style=for-the-badge&color=blue"></a>
+  <a href="https://studiolab.sagemaker.aws/import/github/anxety-solo/sd-webui-sagemaker/blob/main/anxety-ru_ANRED.ipynb"><img alt="SageMaker ANRED" src="https://img.shields.io/badge/SAGEMAKER-orange?style=for-the-badge&label=ANRED&labelColor=grey&color=orange"></a>
+  <a href="https://discordapp.com/users/565783561878372352"><img alt="Discord" src="https://img.shields.io/badge/МОЙ ДИСКОРД-blue?style=for-the-badge&logo=discord&logoColor=white&color=blue"></a>
 </p>
 
 
@@ -19,21 +20,20 @@ English | [Русский ](./README-ru_RU.md)
 
 
 ## 👉 Как начать:
-  1. Нажмите на `SageMaker` вверху и скопируйте этот блокнот. (Да, при обновлении вам придется скопировать его снова)     
-  2. Необходимо получить токен `ngrok` для создания туннеля. Получить его можно [здесь](https://dashboard.ngrok.com/get-started/your-authtoken).
-  3. Затем вставьте токен в _нужное поле_ виджетов.
-  4. Не забудьте нажать `Сохранить` - понятно, для чего это нужно?
-  5. Дальше просто запустите ячейку скачивания, запуска.
+  1. Необходим аккаунт [ngrok](https://dashboard.ngrok.com/login) для получения токена.
+  2. Нажмите на `SageMaker` вверху и скопируйте этот блокнот. <br>
+  - Версия блокнота `ANRED` - это версия, в которой будут внесены изменения в дизайне и функционалу, это отдельная версия, поэтому изменения сделанные в ней, не будут перенесены в обычную версию.
+  4. Дальше разверните нужную ячейку и начинайте пользоваться.
 
 
 ### ☄️ Превью виджетов:
 
 <details>
-<summary><kbd>Развернуть.</kbd></summary>
+<summary>Развернуть.</summary>
  
 <div align="center">
 
-  ![Виджеты](https://github.com/anxety-solo/sd-webui-sagemaker/blob/main/img/ru/widgets_view_ru.png)
+  ![Виджеты-OLD](https://github.com/anxety-solo/sd-webui-sagemaker/blob/main/img/ru/widgets_view_ru.png)
   
 </div>
 

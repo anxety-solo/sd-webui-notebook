@@ -8,8 +8,8 @@
 
 
 <p align="center">
-  <a href="https://studiolab.sagemaker.aws/import/github/anxety-solo/sd-webui-sagemaker/blob/main/anxety-ru.ipynb"><img alt="SageMaker" src="https://img.shields.io/badge/SAGEMAKER-blue?style=for-the-badge&color=blue"></a>
-  <a href="https://studiolab.sagemaker.aws/import/github/anxety-solo/sd-webui-sagemaker/blob/main/anxety-ru_ANRED.ipynb"><img alt="SageMaker ANRED" src="https://img.shields.io/badge/SAGEMAKER-orange?style=for-the-badge&label=ANRED&labelColor=grey&color=orange"></a>
+  <a href="https://studiolab.sagemaker.aws/import/github/anxety-solo/sd-webui-sagemaker/blob/main/notebooks/ru/anxety-ru.ipynb"><img alt="SageMaker" src="https://img.shields.io/badge/SAGEMAKER-blue?style=for-the-badge&color=blue"></a>
+  <a href="https://studiolab.sagemaker.aws/import/github/anxety-solo/sd-webui-sagemaker/blob/main/notebooks/ru/anxety-ru_ANRED.ipynb"><img alt="SageMaker ANRED" src="https://img.shields.io/badge/SAGEMAKER-orange?style=for-the-badge&label=ANRED&labelColor=grey&color=orange"></a>
   <a href="https://discordapp.com/users/565783561878372352"><img alt="Discord" src="https://img.shields.io/badge/МОЙ ДИСКОРД-blue?style=for-the-badge&logo=discord&logoColor=white&color=blue"></a>
 </p>
 
@@ -31,10 +31,10 @@
 <details>
 <summary>Развернуть.</summary>
  
-<div align="center">
-
-  ![Виджеты-OLD](https://github.com/anxety-solo/sd-webui-sagemaker/blob/main/img/ru/widgets_view_ru.png)
+<div align="center"> 
   
+  ![Виджеты](https://github.com/anxety-solo/sd-webui-sagemaker/blob/main/img/ru/sagemaker-widgets-preview_ru.png)
+      
 </div>
 
 </details>

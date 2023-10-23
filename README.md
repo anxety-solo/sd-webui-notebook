@@ -22,18 +22,14 @@ English | [Русский ](./README-ru_RU.md)
 ## 👉 How to start:
   1. Need a [ngrok](https://dashboard.ngrok.com/login) account to get the token.
   2. Click on `SageMaker` at the top and copy this notebook. <br>
+  - The `ANRED` version of the notebook is a version in which design and functionality changes will be made, it is a separate version, so the changes made in it will not be transferred to the regular version.
   3. Next, expand the desired cell and start using it.
 
 
 ### ☄️ Widgets preview:
 
-<details>
-<summary><kbd>Expand.</kbd></summary>
- 
 <div align="center">
 
-  ![Widgets](https://github.com/anxety-solo/sd-webui-sagemaker/blob/main/img/en/sagemaker-widgets-preview_en.png)  
+  ![Widgets](https://github.com/anxety-solo/demo/blob/main/img/en/sagemaker-widgets-preview_en.png)  
   
 </div>
-
-</details>

@@ -56,6 +56,6 @@ English | [Русский ](./README-ru_RU.md)
 
 <div align="center">
 
-  ![Widgets](https://github.com/anxety-solo/demo/blob/main/img/en/sagemaker-widgets-preview_en.png)  
+  ![Widgets](https://github.com/anxety-solo/sd-webui-sagemaker/blob/main/img/en/sagemaker-widgets-preview_en.png)  
   
 </div>

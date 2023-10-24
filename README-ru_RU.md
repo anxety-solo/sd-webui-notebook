@@ -55,6 +55,6 @@
 
 <div align="center"> 
   
-  ![Виджеты](https://github.com/anxety-solo/demo/blob/main/img/ru/sagemaker-widgets-preview_ru.png)
+  ![Виджеты](https://github.com/anxety-solo/sd-webui-sagemaker/blob/main/img/ru/sagemaker-widgets-preview_ru.png)
       
 </div>

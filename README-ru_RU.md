@@ -8,8 +8,8 @@
 
 
 <p align="center">
-  <a href="https://studiolab.sagemaker.aws/import/github/anxety-solo/sd-webui-sagemaker/blob/main/notebooks/ru/anxety-ru_ANRED.ipynb"><img alt="SageMaker ANRED" src="https://img.shields.io/badge/SAGEMAKER-orange?style=for-the-badge&label=ANRED&labelColor=grey&color=orange"></a>
-  <a href="https://lookup.guru/565783561878372352"><img alt="MY DISCORD" src="https://dcbadge.vercel.app/api/shield/565783561878372352?style=for-the-badge"></a>
+  <a href="https://studiolab.sagemaker.aws/import/github/anxety-solo/sd-webui-sagemaker/blob/main/notebooks/ru/anxety-sdw_ru.ipynb" target="_blank"><img alt="SageMaker" src="https://img.shields.io/badge/SageMaker-%23fff?style=for-the-badge&label=open&labelColor=%23502B3A&color=%20%23B04A5A"></a>
+  <a href="https://lookup.guru/565783561878372352" target="_blank"><img alt="MY DISCORD" src="https://dcbadge.vercel.app/api/shield/565783561878372352?style=for-the-badge"></a>
 </p>
 
 

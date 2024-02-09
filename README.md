@@ -1,22 +1,32 @@
 <div align="center">
 
-<h1 align="center">~ ANXETY | Stable Diffusion WebUI | SageMaker ~</h1>
+<h1 align="center">~ ANXETY | Stable Diffusion WebUI | NoteBook ~</h1>
 
 English | [Русский ](./README-ru_RU.md)
 
 </div>
 
 
-<p align="center">
-  <a href="https://studiolab.sagemaker.aws/import/github/anxety-solo/sd-webui-sagemaker/blob/main/notebooks/en/anxety-sdw_en.ipynb" target="_blank"><img alt="SageMaker" src="https://img.shields.io/badge/SageMaker-%23fff?style=for-the-badge&label=open&labelColor=%23502B3A&color=%20%23B04A5A"></a>
-  <a href="https://lookup.guru/565783561878372352" target="_blank"><img alt="MY DISCORD" src="https://dcbadge.vercel.app/api/shield/565783561878372352?style=for-the-badge"></a>
-</p>
+<div align="center">
+	<br>
+	<a href="https://lookup.guru/565783561878372352">
+		<img src="/SVG/en/discord-en.svg" width="800" height="130" alt="discord">
+	</a>
+	<br>
+	<a href="https://studiolab.sagemaker.aws/import/github/anxety-solo/sd-webui-sagemaker/blob/main/notebooks/en/anxety-sdw_en.ipynb">
+		<img src="/SVG/en/sagemaker-en.svg" width="800" height="180" alt="sagemaker">
+	</a>
+	<br>
+	<a href="https://www.kaggle.com/ayamanaox/anxety-sdw-en">
+		<img src="/SVG/en/kaggle-en.svg" width="800" height="180" alt="kaggle">
+	</a>
+</div>
 
 
 ## 🌟 Features:
   - Widgets for easy interaction.
-  - Ability to run on both GPU and CPU.
   - Preset custom settings + styles.
+
 
 <details>
 <summary>Installed Extensions:</summary>
@@ -32,7 +42,7 @@ English | [Русский ](./README-ru_RU.md)
 - [ControlNet](https://github.com/Mikubill/sd-webui-controlnet)
 - [infinite-image-browsing](https://github.com/zanllp/sd-webui-infinite-image-browsing)
 - [lora-block-weight](https://github.com/hako-mikan/sd-webui-lora-block-weight)
-- [ncpt_colab_timer](https://github.com/NoCrypt/ncpt_colab_timer)
+- [ncpt_colab_timer](https://github.com/NoCrypt/ncpt_colab_timer) - edit me
 - [neutral-prompt](https://github.com/ljleb/sd-webui-neutral-prompt)
 - [regional-prompter](https://github.com/hako-mikan/sd-webui-regional-prompter)
 - [state](https://github.com/ilian6806/stable-diffusion-webui-state)
@@ -41,13 +51,6 @@ English | [Русский ](./README-ru_RU.md)
 - [wd14-tagger](https://github.com/picobyte/stable-diffusion-webui-wd14-tagger)
 
 </details>
-
-
-
-## 👉 How to start:
-  1. Need a [ngrok](https://dashboard.ngrok.com/login) account to get the token.
-  2. Click on `SageMaker` at the top and copy this notebook.
-  3. Next, expand the desired cell and start using it.
 
 
 ## ☄️ Widgets preview:

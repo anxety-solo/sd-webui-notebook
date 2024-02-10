@@ -13,11 +13,11 @@
 		<img src="/SVG/ru/discord-ru.svg" width="800" height="130" alt="discord">
 	</a>
 	<br>
-	<a href="https://studiolab.sagemaker.aws/import/github/anxety-solo/sd-webui-sagemaker/blob/main/notebooks/ru/anxety-sdw_ru.ipynb">
+	<a href="https://studiolab.sagemaker.aws/import/github/anxety-solo/sd-webui-sagemaker/blob/main/notebooks/sagemaker/ru/anxety-sdw_ru.ipynb">
 		<img src="/SVG/ru/sagemaker-ru.svg" width="800" height="180" alt="sagemaker">
 	</a>
 	<br>
-	<a href="https://www.kaggle.com/ayamanaox/anxety-sdw-en">
+	<a href="https://www.kaggle.com/anxetysolo/anxety-sdw-ru">
 		<img src="/SVG/ru/kaggle-ru.svg" width="800" height="180" alt="kaggle">
 	</a>
 </div>

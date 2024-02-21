@@ -8,22 +8,25 @@ English | [Русский ](./README-ru_RU.md)
 
 
 <div align="center">
-	<br>
+	</br>
 	<a href="https://lookup.guru/565783561878372352">
 		<img src="/SVG/en/discord-en.svg" width="800" height="130" alt="discord">
 	</a>
-	<br>
-	<a href="https://studiolab.sagemaker.aws/import/github/anxety-solo/sd-webui-sagemaker/blob/main/notebooks/sagemaker/en/anxety-sdw_en.ipynb">
-		<img src="/SVG/en/sagemaker-en.svg" width="800" height="180" alt="sagemaker">
+	<a href="https://studiolab.sagemaker.aws/import/github/anxety-solo/sd-webui-sagemaker/blob/main/notebooks/en/anxety-sdw_en.ipynb">
+		<img src="/SVG/en/sagemaker-en.svg" width="800" height="160" alt="sagemaker">
 	</a>
-	<br>
 	<a href="https://www.kaggle.com/anxetysolo/anxety-sdw-en">
-		<img src="/SVG/en/kaggle-en.svg" width="800" height="180" alt="kaggle">
+		<img src="/SVG/en/kaggle-en.svg" width="800" height="160" alt="kaggle">
 	</a>
+      <a href="https://colab.research.google.com/drive/1xVRHNi0_5Vi4s3H0ps8hVncMxEKFGWUp">
+		<img src="/SVG/en/colab-en.svg" width="800" height="160" alt="colab">
+	</a>
+	</br>
 </div>
 
 
 ## 🌟 Features:
+  - Multiplatform: Google Colab (Pro), Kaggle, Sagemaker Studio Lab.
   - Widgets for easy interaction.
   - Preset custom settings + styles.
 
@@ -42,7 +45,7 @@ English | [Русский ](./README-ru_RU.md)
 - [ControlNet](https://github.com/Mikubill/sd-webui-controlnet)
 - [infinite-image-browsing](https://github.com/zanllp/sd-webui-infinite-image-browsing)
 - [lora-block-weight](https://github.com/hako-mikan/sd-webui-lora-block-weight)
-- [ncpt_colab_timer](https://github.com/NoCrypt/ncpt_colab_timer) - edit me
+- [ncpt_colab_timer](https://github.com/NoCrypt/ncpt_colab_timer) - edited by me
 - [neutral-prompt](https://github.com/ljleb/sd-webui-neutral-prompt)
 - [regional-prompter](https://github.com/hako-mikan/sd-webui-regional-prompter)
 - [state](https://github.com/ilian6806/stable-diffusion-webui-state)
@@ -57,6 +60,6 @@ English | [Русский ](./README-ru_RU.md)
 
 <div align="center">
 
-  ![Widgets](https://github.com/anxety-solo/sd-webui-sagemaker/blob/main/img/en/ANRED_widgets_view_en.png)  
+  ![Widgets](/img/en/ANRED_widgets_view_en.png)  
   
 </div>

@@ -46,7 +46,7 @@
                     justify-content: center;
                     width: auto;
                     height: 160px;
-                    background: linear-gradient(-45deg, #7BC2ED, #9370DB, #7BC2ED);
+                    background: linear-gradient(-45deg, #C33764, #c33737, #C33764);
                     background-size: 600% 400%;
                     animation: gradientBackground 10s ease infinite;
                     border-radius: 10px;
@@ -65,28 +65,28 @@
                 }
 
                 h1 {
-                    color: #FFFFFF;
+                    color: #8DFFDD;
                     font-size: 45px;
                     letter-spacing: 10px;
                     text-shadow:
-                        0 1px 0 #bdbbbb,
-                        0 2px 0 #bdbbbb,
-                        0 3px 0 #bdbbbb,
-                        0 4px 0 #bdbbbb,
+                        0 1px 0 #1eb387,
+                        0 2px 0 #1eb387,
+                        0 3px 0 #1eb387,
+                        0 4px 0 #1eb387,
                         0 12px 5px rgba(0, 0, 0, 0.1);
                     margin-bottom: -18px;
                     margin-top: 25px;
                 }
 
                 h2 {
-                    color: #E8DAEF;
-                    font-size: 70px; 
+                    color: #FFFFFF;
+                    font-size: 70px;
                     letter-spacing: 15px;
                     text-shadow:
-                        0 1px 0 #71a3c7,
-                        0 2px 0 #71a3c7,
-                        0 3px 0 #71a3c7,
-                        0 4px 0 #71a3c7,
+                        0 1px 0 #bdbbbb,
+                        0 2px 0 #bdbbbb,
+                        0 3px 0 #bdbbbb,
+                        0 4px 0 #bdbbbb,
                         0 12px 5px rgba(0, 0, 0, 0.1);
                     margin-top: 0;
                     animation: letterSpacingH2 ease-in-out 1s infinite alternate;
@@ -103,11 +103,11 @@
             
             <div class="container">
                 <div class="source">
-                    <p>Click to copy NoteBook</p>
+                    <p>Click to open NoteBook</p>
                 </div>
 
                 <h1>Open In</h1>
-                <h2>KAGGLE</h2>
+                <h2>COLAB</h2>
             </div>
         </div>
     </foreignObject>

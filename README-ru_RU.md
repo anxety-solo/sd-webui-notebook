@@ -52,6 +52,7 @@
 - [supermerger](https://github.com/hako-mikan/sd-webui-supermerger)
 - [tag-complete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete)
 - [wd14-tagger](https://github.com/picobyte/stable-diffusion-webui-wd14-tagger)
+- [sd-encrypt-image](https://github.com/viyiviyi/sd-encrypt-image) - новый
 
 </details>
 
@@ -61,5 +62,7 @@
 <div align="center"> 
   
   ![Виджеты](/img/ru/ANRED_widgets_view_ru.png)
-      
+  </br>
+  <h6>Со временем виджеты могут изменяться/различаться.</h6>
+
 </div>

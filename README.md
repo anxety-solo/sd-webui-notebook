@@ -52,6 +52,7 @@ English | [Русский ](./README-ru_RU.md)
 - [supermerger](https://github.com/hako-mikan/sd-webui-supermerger)
 - [tag-complete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete)
 - [wd14-tagger](https://github.com/picobyte/stable-diffusion-webui-wd14-tagger)
+- [sd-encrypt-image](https://github.com/viyiviyi/sd-encrypt-image) - new
 
 </details>
 
@@ -60,6 +61,8 @@ English | [Русский ](./README-ru_RU.md)
 
 <div align="center">
 
-  ![Widgets](/img/en/ANRED_widgets_view_en.png)  
+  ![Widgets](/img/en/ANRED_widgets_view_en.png)
+  </br>
+  <h6>Widgets may change/differ over time.</h6>
   
 </div>

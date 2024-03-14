@@ -22,17 +22,17 @@ English | [Русский ](./README-ru_RU.md)
 		<img src="/SVG/en/colab-en.svg" width="800" height="160" alt="colab">
 	</a>
 	</br>
+	<h6>All nootebok updates happen inside the repository at <a href="https://huggingface.co/NagisaNao/fast_repo/tree/main">Hugging Face</a>.</h6>
 </div>
 
 
 ## 🌟 Features:
-  - Multiplatform: Google Colab (Pro), Kaggle, Sagemaker Studio Lab.
+  - Multiplatform notebook: Google Colab (Pro), Kaggle, Sagemaker Studio Lab.
   - Widgets for easy interaction.
   - Preset custom settings + styles.
 
-
 <details>
-<summary>Installed Extensions:</summary>
+<summary>Installed Extensions</summary>
 
 - [Config-Presets](https://github.com/Zyin055/Config-Presets)
 - [Umi-AI-Wildcards](https://github.com/Tsukreya/Umi-AI-Wildcards)
@@ -52,17 +52,29 @@ English | [Русский ](./README-ru_RU.md)
 - [supermerger](https://github.com/hako-mikan/sd-webui-supermerger)
 - [tag-complete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete)
 - [wd14-tagger](https://github.com/picobyte/stable-diffusion-webui-wd14-tagger)
-- [sd-encrypt-image](https://github.com/viyiviyi/sd-encrypt-image) - new
+- [sd-encrypt-image](https://github.com/viyiviyi/sd-encrypt-image)
 
 </details>
 
+<details>
+<summary>WebUI View</summary>
+	
+![webui](/img/webui.png)
+</details>
 
-## ☄️ Widgets preview:
 
-<div align="center">
+## ☄️ Widget Preview:
 
-  ![Widgets](/img/en/ANRED_widgets_view_en.png)
-  </br>
-  <h6>Widgets may change/differ over time.</h6>
+<div align="center"> 
   
+  <h4>Main widget.</h5>
+  <h6>P.S - The "Custom Download" field expands when the text is clicked ;3</h6>
+  
+  ![main_widget](/img/en/main_widget_en.png)
+  <h4>Cleaning widget.</h4>
+  
+  ![clean_widget](/img/en/cleaner_widget_en.png)
+  </br>
+  <h6>Widgets may change over time.</h6>
+
 </div>

@@ -22,17 +22,17 @@
 		<img src="/SVG/ru/colab-ru.svg" width="800" height="160" alt="colab">
 	</a>
 	</br>
+ 	<h6>Все обновления блокнота происходят внутри репозитория на <a href="https://huggingface.co/NagisaNao/fast_repo/tree/main">Hugging Face</a>.</h6>
 </div>
 
 
 ## 🌟 Особенности:
-  - Мультиплатформенный: Google Colab (Pro), Kaggle, Sagemaker Studio Lab.
+  - Мультиплатформенный блокнот: Google Colab (Pro), Kaggle, Sagemaker Studio Lab.
   - Виджеты для простого взаимодействия.
   - Предустановленные пользовательские настройки + стили.
- 
- 
+    
 <details>
-<summary>Установленные Расширения:</summary>
+<summary>Установленные Расширения</summary>
 
 - [Config-Presets](https://github.com/Zyin055/Config-Presets)
 - [Umi-AI-Wildcards](https://github.com/Tsukreya/Umi-AI-Wildcards)
@@ -52,8 +52,14 @@
 - [supermerger](https://github.com/hako-mikan/sd-webui-supermerger)
 - [tag-complete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete)
 - [wd14-tagger](https://github.com/picobyte/stable-diffusion-webui-wd14-tagger)
-- [sd-encrypt-image](https://github.com/viyiviyi/sd-encrypt-image) - новый
+- [sd-encrypt-image](https://github.com/viyiviyi/sd-encrypt-image)
 
+</details>
+
+<details>
+<summary>Вид WebUI</summary>
+	
+![webui](/img/webui.png)
 </details>
 
 
@@ -61,8 +67,14 @@
 
 <div align="center"> 
   
-  ![Виджеты](/img/ru/ANRED_widgets_view_ru.png)
+  <h4>Главный виджет.</h5>
+  <h6>P.S - Поле "Кастомная загрузка" - раскрывается при нажатии на текст ;3</h6>
+  
+  ![main_widget](/img/ru/main_widget_ru.png)
+  <h4>Виджет очистки.</h4>
+  
+  ![clean_widget](/img/ru/cleaner_widget_ru.png)
   </br>
-  <h6>Со временем виджеты могут изменяться/различаться.</h6>
+  <h6>Со временем виджеты могут изменяться.</h6>
 
 </div>

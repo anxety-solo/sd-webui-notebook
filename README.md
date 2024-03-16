@@ -22,12 +22,12 @@ English | [Русский ](./README-ru_RU.md)
 		<img src="/SVG/en/colab-en.svg" width="800" height="160" alt="colab">
 	</a>
 	</br>
-	<h6>All nootebok updates happen inside the repository at <a href="https://huggingface.co/NagisaNao/fast_repo/tree/main">Hugging Face</a>.</h6>
+	<h6>All notebook updates happen inside the repository at <a href="https://huggingface.co/NagisaNao/fast_repo/tree/main">Hugging Face</a>.</h6>
 </div>
 
 
 ## 🌟 Features:
-  - Multiplatform notebook: Google Colab (Pro), Kaggle, Sagemaker Studio Lab.
+  - Multiplatform notebook: Google Colab (Pro|Free), Kaggle, Sagemaker Studio Lab.
   - Widgets for easy interaction.
   - Preset custom settings + styles.
 

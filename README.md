@@ -9,7 +9,7 @@ English | [Русский ](./README-ru_RU.md)
 
 <div align="center">
 	</br>
-	<a href="https://lookup.guru/565783561878372352">
+	<a href="https://discord.gg/eemJdDusvH">
 		<img src="/SVG/en/discord-en.svg" width="800" height="130" alt="discord">
 	</a>
 	<a href="https://studiolab.sagemaker.aws/import/github/anxety-solo/sd-webui-sagemaker/blob/main/notebooks/en/anxety-sdw_en.ipynb">

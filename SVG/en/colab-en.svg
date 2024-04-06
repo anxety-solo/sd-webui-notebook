@@ -46,7 +46,7 @@
                     justify-content: center;
                     width: auto;
                     height: 160px;
-                    background: linear-gradient(-45deg, #C33764, #c33737, #C33764);
+                    background: linear-gradient(-45deg, #950740, #C3073F, #6F2232);
                     background-size: 600% 400%;
                     animation: gradientBackground 10s ease infinite;
                     border-radius: 10px;

@@ -37,7 +37,6 @@ English | [Русский ](./README-ru_RU.md)
 - [additional-networks](https://github.com/kohya-ss/sd-webui-additional-networks)
 - [adetailer](https://github.com/Bing-su/adetailer)
 - [aspect-ratio-helper](https://github.com/thomasasfk/sd-webui-aspect-ratio-helper)
-- [batchlinks](https://github.com/etherealxx/batchlinks-webui)
 - [canvas-zoom](https://github.com/richrobber2/canvas-zoom)
 - [cattpuccin](https://github.com/catppuccin/stable-diffusion-webui)
 - [Config-Presets](https://github.com/Zyin055/Config-Presets)
@@ -48,6 +47,7 @@ English | [Русский ](./README-ru_RU.md)
 - [neutral-prompt](https://github.com/ljleb/sd-webui-neutral-prompt)
 - [regional-prompter](https://github.com/hako-mikan/sd-webui-regional-prompter)
 - [sd-encrypt-image](https://github.com/viyiviyi/sd-encrypt-image)
+- [sd-hub](https://github.com/gutris1/sd-hub) - alternative [batchlinks](https://github.com/etherealxx/batchlinks-webui)
 - [state](https://github.com/ilian6806/stable-diffusion-webui-state)
 - [supermerger](https://github.com/hako-mikan/sd-webui-supermerger)
 - [tag-complete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete)
@@ -67,7 +67,7 @@ English | [Русский ](./README-ru_RU.md)
 
 <div align="center"> 
   
-  <h4>Main widget.</h5>
+  <!-- <h4>Main widget.</h5> -->
   <h6>P.S - The "Custom Download" field expands when the text is clicked ;3</h6>
   
   <details>
@@ -75,17 +75,17 @@ English | [Русский ](./README-ru_RU.md)
 
   No direct purpose, just a fun feature, why not? Right?
   </br>
-  To do this, simply specify the argument `-i <url>`, where _url_ is a link to an image/gif.
+  To do this, simply specify the argument `-i <url>`, where _\<url\>_ is a link to an image/gif.
 
   **Example:**
-  ![img](https://huggingface.co/NagisaNao/test/resolve/main/preview_img_bg_widget.png)
+  ![img](https://huggingface.co/NagisaNao/test/raw/main/preview_background_img.png)
   
   </details>
   
-  ![main_widget](/img/en/main_widget_en.png)
-  <h4>Cleaning widget.</h4>
+  ![main_widget](/img/en/t2_main_widget_en.png)
+  <!-- <h4>Cleaning widget.</h4> -->
   
-  ![clean_widget](/img/en/cleaner_widget_en.png)
+  ![clean_widget](/img/en/t2_cleaner_widget_en.png)
   </br>
   <h6>Widgets may change over time.</h6>
 

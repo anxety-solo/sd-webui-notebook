@@ -12,9 +12,6 @@
 	<a href="https://discord.gg/eemJdDusvH">
 		<img src="/SVG/ru/discord-ru.svg" width="800" height="130" alt="discord">
 	</a>
-	<a href="https://studiolab.sagemaker.aws/import/github/anxety-solo/sd-webui-sagemaker/blob/main/notebooks/ru/anxety-sdw_ru.ipynb">
-		<img src="/SVG/ru/sagemaker-ru.svg" width="800" height="160" alt="sagemaker">
-	</a>
 	<a href="https://www.kaggle.com/anxetysolo/anxety-sdw-ru">
 		<img src="/SVG/ru/kaggle-ru.svg" width="800" height="160" alt="kaggle">
 	</a>
@@ -27,7 +24,7 @@
 
 
 ## 🌟 Особенности:
-  - Мультиплатформенный блокнот: Google Colab (Pro|Free), Kaggle, Sagemaker Studio Lab.
+  - Мультиплатформенный блокнот: Google Colab (Pro|Free), Kaggle.
   - Виджеты для простого взаимодействия.
   - Предустановленные пользовательские настройки + стили.
     

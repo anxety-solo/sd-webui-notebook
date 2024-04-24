@@ -12,9 +12,6 @@ English | [Русский ](./README-ru_RU.md)
 	<a href="https://discord.gg/eemJdDusvH">
 		<img src="/SVG/en/discord-en.svg" width="800" height="130" alt="discord">
 	</a>
-	<a href="https://studiolab.sagemaker.aws/import/github/anxety-solo/sd-webui-sagemaker/blob/main/notebooks/en/anxety-sdw_en.ipynb">
-		<img src="/SVG/en/sagemaker-en.svg" width="800" height="160" alt="sagemaker">
-	</a>
 	<a href="https://www.kaggle.com/anxetysolo/anxety-sdw-en">
 		<img src="/SVG/en/kaggle-en.svg" width="800" height="160" alt="kaggle">
 	</a>
@@ -27,7 +24,7 @@ English | [Русский ](./README-ru_RU.md)
 
 
 ## 🌟 Features:
-  - Multiplatform notebook: Google Colab (Pro|Free), Kaggle, Sagemaker Studio Lab.
+  - Multiplatform notebook: Google Colab (Pro|Free), Kaggle.
   - Widgets for easy interaction.
   - Preset custom settings + styles.
 

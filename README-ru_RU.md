@@ -24,10 +24,12 @@
 
 
 ## 🌟 Особенности:
-  - Мультиплатформенный блокнот: Google Colab (Pro|Free), Kaggle.
-  - Виджеты для простого взаимодействия.
+  - Мультиплатформенный блокнот: **Google Colab (Pro|Free), Kaggle.**
+  - *Виджеты* для простого взаимодействия.
   - Предустановленные пользовательские настройки + стили.
-    
+  - Скачивание превью для *моделей, LoRa и embedding* (CivitAi) | ***Для Kaggle есть ограничения.***
+  - Выбор WebUI между *A1111* и *Forge.*
+
 <details>
 <summary>Установленные Расширения</summary>
 
@@ -36,15 +38,14 @@
 - [aspect-ratio-helper](https://github.com/thomasasfk/sd-webui-aspect-ratio-helper)
 - [canvas-zoom](https://github.com/richrobber2/canvas-zoom)
 - [cattpuccin](https://github.com/catppuccin/stable-diffusion-webui)
+- [CivitAi-Browser-plus](https://github.com/BlafKing/sd-civitai-browser-plus) 
 - [Config-Presets](https://github.com/Zyin055/Config-Presets)
 - [ControlNet](https://github.com/Mikubill/sd-webui-controlnet)
 - [infinite-image-browsing](https://github.com/zanllp/sd-webui-infinite-image-browsing)
-- [lora-block-weight](https://github.com/hako-mikan/sd-webui-lora-block-weight)
-- [ncpt_colab_timer](https://github.com/NoCrypt/ncpt_colab_timer) - edited by me
-- [neutral-prompt](https://github.com/ljleb/sd-webui-neutral-prompt)
+- [ncpt_colab_timer](https://github.com/NoCrypt/ncpt_colab_timer) - *отредактировано мной*
 - [regional-prompter](https://github.com/hako-mikan/sd-webui-regional-prompter)
 - [sd-encrypt-image](https://github.com/viyiviyi/sd-encrypt-image)
-- [sd-hub](https://github.com/gutris1/sd-hub) - alternative [batchlinks](https://github.com/etherealxx/batchlinks-webui)
+- [sd-hub](https://github.com/gutris1/sd-hub) - *альтернатива [batchlinks](https://github.com/etherealxx/batchlinks-webui)*
 - [state](https://github.com/ilian6806/stable-diffusion-webui-state)
 - [supermerger](https://github.com/hako-mikan/sd-webui-supermerger)
 - [tag-complete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete)
@@ -54,7 +55,7 @@
 </details>
 
 <details>
-<summary>Вид WebUI</summary>
+<summary>Превью WebUI</summary>
 	
 ![webui](/img/webui.png)
 </details>
@@ -64,7 +65,6 @@
 
 <div align="center"> 
   
-  <!-- <h4>Главный виджет.</h5> -->
   <h6>P.S - Поле "Кастомная загрузка" - раскрывается при нажатии на текст ;3</h6>
   
   <details>
@@ -80,10 +80,7 @@
   </details>
   
   ![main_widget](/img/ru/t2_main_widget_ru.png)
-  <!-- <h4>Виджет очистки.</h4> -->
   
   ![clean_widget](/img/ru/t2_cleaner_widget_ru.png)
-  </br>
-  <h6>Со временем виджеты могут изменяться.</h6>
 
 </div>

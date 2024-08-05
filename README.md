@@ -24,9 +24,11 @@ English | [Русский ](./README-ru_RU.md)
 
 
 ## 🌟 Features:
-  - Multiplatform notebook: Google Colab (Pro|Free), Kaggle.
-  - Widgets for easy interaction.
+  - Multiplatform notebook: *Google Colab (Pro|Free), Kaggle.*
+  - *Widgets* for easy interaction.
   - Preset custom settings + styles.
+  - Download previews for *models, LoRa and embedding* (CivitAi) | ***There are limitations for Kaggle.***
+  - Choosing WebUI between *A1111* and *Forge.*
 
 <details>
 <summary>Installed Extensions</summary>
@@ -36,15 +38,14 @@ English | [Русский ](./README-ru_RU.md)
 - [aspect-ratio-helper](https://github.com/thomasasfk/sd-webui-aspect-ratio-helper)
 - [canvas-zoom](https://github.com/richrobber2/canvas-zoom)
 - [cattpuccin](https://github.com/catppuccin/stable-diffusion-webui)
+- [CivitAi-Browser-plus](https://github.com/BlafKing/sd-civitai-browser-plus) 
 - [Config-Presets](https://github.com/Zyin055/Config-Presets)
 - [ControlNet](https://github.com/Mikubill/sd-webui-controlnet)
 - [infinite-image-browsing](https://github.com/zanllp/sd-webui-infinite-image-browsing)
-- [lora-block-weight](https://github.com/hako-mikan/sd-webui-lora-block-weight)
-- [ncpt_colab_timer](https://github.com/NoCrypt/ncpt_colab_timer) - edited by me
-- [neutral-prompt](https://github.com/ljleb/sd-webui-neutral-prompt)
+- [ncpt_colab_timer](https://github.com/NoCrypt/ncpt_colab_timer) - *edited by me*
 - [regional-prompter](https://github.com/hako-mikan/sd-webui-regional-prompter)
 - [sd-encrypt-image](https://github.com/viyiviyi/sd-encrypt-image)
-- [sd-hub](https://github.com/gutris1/sd-hub) - alternative [batchlinks](https://github.com/etherealxx/batchlinks-webui)
+- [sd-hub](https://github.com/gutris1/sd-hub) - *alternative [batchlinks](https://github.com/etherealxx/batchlinks-webui)*
 - [state](https://github.com/ilian6806/stable-diffusion-webui-state)
 - [supermerger](https://github.com/hako-mikan/sd-webui-supermerger)
 - [tag-complete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete)
@@ -54,7 +55,7 @@ English | [Русский ](./README-ru_RU.md)
 </details>
 
 <details>
-<summary>WebUI View</summary>
+<summary>WebUI Preview</summary>
 	
 ![webui](/img/webui.png)
 </details>
@@ -64,7 +65,6 @@ English | [Русский ](./README-ru_RU.md)
 
 <div align="center"> 
   
-  <!-- <h4>Main widget.</h5> -->
   <h6>P.S - The "Custom Download" field expands when the text is clicked ;3</h6>
   
   <details>
@@ -80,10 +80,7 @@ English | [Русский ](./README-ru_RU.md)
   </details>
   
   ![main_widget](/img/en/t2_main_widget_en.png)
-  <!-- <h4>Cleaning widget.</h4> -->
   
   ![clean_widget](/img/en/t2_cleaner_widget_en.png)
-  </br>
-  <h6>Widgets may change over time.</h6>
 
 </div>

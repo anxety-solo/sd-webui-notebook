@@ -33,7 +33,6 @@
 <details>
 <summary>Установленные Расширения</summary>
 
-- [additional-networks](https://github.com/kohya-ss/sd-webui-additional-networks)
 - [adetailer](https://github.com/Bing-su/adetailer)
 - [aspect-ratio-helper](https://github.com/thomasasfk/sd-webui-aspect-ratio-helper)
 - [canvas-zoom](https://github.com/richrobber2/canvas-zoom)
@@ -45,6 +44,7 @@
 - [ncpt_colab_timer](https://github.com/NoCrypt/ncpt_colab_timer) - *отредактировано мной*
 - [regional-prompter](https://github.com/hako-mikan/sd-webui-regional-prompter)
 - [sd-encrypt-image](https://github.com/viyiviyi/sd-encrypt-image)
+- [sd-fast-pnginfo](https://github.com/NoCrypt/sd-fast-pnginfo)
 - [sd-hub](https://github.com/gutris1/sd-hub) - *альтернатива [batchlinks](https://github.com/etherealxx/batchlinks-webui)*
 - [state](https://github.com/ilian6806/stable-diffusion-webui-state)
 - [supermerger](https://github.com/hako-mikan/sd-webui-supermerger)

@@ -1,5 +1,7 @@
 <div align="center">
 
+<h2 align="center">🚧 Currently has moved into development V2, available at <a href="https://github.com/anxety-solo/sdAIgen" target="_blank">this repository.</a> 🚧</h1>
+
 <h1 align="center">~ ANXETY | Stable Diffusion WebUI | NoteBook ~</h1>
 
 English | [Русский ](./README-ru_RU.md)
